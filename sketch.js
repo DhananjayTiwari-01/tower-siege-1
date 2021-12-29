@@ -71,7 +71,7 @@ function draw() {
  
   imageMode(CENTER);
    
-  image(rock_img,96,200,30,30);
+  image(rock_img,ball.position.x,ball.position.y,30,30);
  
   
   
